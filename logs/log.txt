@@ -30,3 +30,11 @@
 2024-01-04 18:26:30,183 - INFO - Contracting  has to 's
 2024-01-04 18:26:30,184 - INFO - Contracting  had to 'd
 2024-01-04 18:26:30,185 - INFO - Compression completed. Output saved to output.txt.
+2024-01-04 18:37:22,253 - INFO - Reading input from input.txt
+2024-01-04 18:37:22,253 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-04 18:37:22,253 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-04 18:37:22,253 - INFO - Applying shortcuts
+2024-01-04 18:37:22,254 - INFO - Applying contractions
+2024-01-04 18:37:22,254 - INFO - Contracting  has to 's
+2024-01-04 18:37:22,254 - INFO - Contracting  had to 'd
+2024-01-04 18:37:22,256 - INFO - Compression completed. Output saved to text.txt.
