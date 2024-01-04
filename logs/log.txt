@@ -1,0 +1,32 @@
+2024-01-03 17:02:48,343 - INFO - Reading input from input.txt
+2024-01-03 17:02:48,344 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-03 17:02:48,344 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-03 17:02:48,344 - INFO - Applying shortcuts
+2024-01-03 17:02:48,344 - INFO - Applying contractions
+2024-01-03 17:02:48,344 - INFO - Contracting  has to 's
+2024-01-03 17:02:48,345 - INFO - Contracting  had to 'd
+2024-01-03 17:02:48,346 - INFO - Compression completed. Output saved to output.txt.
+2024-01-04 17:52:25,220 - INFO - Reading input from input.txt
+2024-01-04 17:52:25,221 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-04 17:52:25,221 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-04 17:52:25,221 - INFO - Applying shortcuts
+2024-01-04 17:52:25,222 - INFO - Applying contractions
+2024-01-04 17:52:25,222 - INFO - Contracting  has to 's
+2024-01-04 17:52:25,222 - INFO - Contracting  had to 'd
+2024-01-04 17:52:25,224 - INFO - Compression completed. Output saved to output.txt.
+2024-01-04 18:03:37,019 - INFO - Reading input from input.txt
+2024-01-04 18:03:37,020 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-04 18:03:37,020 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-04 18:03:37,020 - INFO - Applying shortcuts
+2024-01-04 18:03:37,020 - INFO - Applying contractions
+2024-01-04 18:03:37,020 - INFO - Contracting  has to 's
+2024-01-04 18:03:37,021 - INFO - Contracting  had to 'd
+2024-01-04 18:03:37,022 - INFO - Compression completed. Output saved to output.txt.
+2024-01-04 18:26:30,182 - INFO - Reading input from input.txt
+2024-01-04 18:26:30,182 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-04 18:26:30,182 - INFO - Replacing Gregor Samsa with shortcut GS
+2024-01-04 18:26:30,183 - INFO - Applying shortcuts
+2024-01-04 18:26:30,183 - INFO - Applying contractions
+2024-01-04 18:26:30,183 - INFO - Contracting  has to 's
+2024-01-04 18:26:30,184 - INFO - Contracting  had to 'd
+2024-01-04 18:26:30,185 - INFO - Compression completed. Output saved to output.txt.

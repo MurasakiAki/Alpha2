@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Function for automatic compression
+function auto_compress {
+    echo "Starting automatic compression with default parameters."
+    python -c "from alpha_compress import auto_compress; auto_compress()"
+}
+
+# Function for manual compression (TO-DO: Implement manual compression)
+function manual_compress {
+    echo "Starting manual compression."
+    # TO-DO
+}
+
+# Function for configuration check
+function config_check {
+    echo "$lng - Is your VM ready?"
+}
+
+# Main menu
+main_menu_prompt="Hello, what would you like to do?"
+sub_menu_prompt="Please select a compression method:"
+
+while true; do
+    clear
+    echo $main_menu_prompt
+    select main_opt in Compress Config Quit
+    do
+        case $main_opt in
+            "Compress")
+                
+                while true; do
+                    clear
+                    echo $sub_menu_prompt
+                    select com_opt in Auto Manual Back
+                    do
+                        case $com_opt in
+                            "Auto") auto_compress;;
+                            "Manual") manual_compress;;
+                            "Back") break 2;;
+                            *) echo "Wrong choice.";;
+                        esac
+                    done
+                done
+                break;;
+            "Config") config_check;;
+            "Quit")
+                echo "Thank you"
+                exit;;
+            *) echo "Wrong choice.";;
+        esac
+    done
+done
