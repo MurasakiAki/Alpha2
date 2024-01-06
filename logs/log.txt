@@ -38,3 +38,169 @@
 2024-01-04 18:37:22,254 - INFO - Contracting  has to 's
 2024-01-04 18:37:22,254 - INFO - Contracting  had to 'd
 2024-01-04 18:37:22,256 - INFO - Compression completed. Output saved to text.txt.
+2024-01-06 12:59:51,657 - INFO - Reading input from input.txt
+2024-01-06 12:59:51,658 - INFO - Applying contractions
+2024-01-06 12:59:51,658 - INFO - Contracting  has to 's
+2024-01-06 12:59:51,659 - INFO - Contracting  had to 'd
+2024-01-06 12:59:51,660 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:03:32,450 - INFO - Reading input from input.txt
+2024-01-06 13:03:32,450 - INFO - Applying contractions
+2024-01-06 13:03:32,451 - INFO - Contracting  has to 's
+2024-01-06 13:03:32,451 - INFO - Contracting  had to 'd
+2024-01-06 13:03:32,458 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:04:08,510 - INFO - Reading input from input.txt
+2024-01-06 13:04:08,510 - INFO - Applying contractions
+2024-01-06 13:04:08,510 - INFO - Skipping contractions.
+2024-01-06 13:04:08,510 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:05:14,042 - INFO - Reading input from input.txt
+2024-01-06 13:05:14,042 - INFO - Applying contractions
+2024-01-06 13:05:14,042 - INFO - Skipping contractions.
+2024-01-06 13:05:14,043 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:05:27,245 - INFO - Reading input from input.txt
+2024-01-06 13:05:27,246 - INFO - Applying contractions
+2024-01-06 13:05:27,246 - INFO - Skipping contractions.
+2024-01-06 13:05:27,246 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:06:55,837 - INFO - Reading input from input.txt
+2024-01-06 13:06:55,837 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:08:56,995 - INFO - Reading input from input.txt
+2024-01-06 13:08:56,995 - INFO - Replacing Gregor Samsa with shortcut GG
+2024-01-06 13:08:56,995 - INFO - Replacing Gregor Samsa with shortcut GG
+2024-01-06 13:08:56,995 - INFO - Replacing Gregor Samsa with shortcut GG
+2024-01-06 13:08:56,996 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:09:29,080 - INFO - Reading input from input.txt
+2024-01-06 13:09:29,081 - INFO - Replacing Gregor Samsa with shortcut GG
+2024-01-06 13:09:29,081 - INFO - Replacing Gregor Samsa with shortcut GG
+2024-01-06 13:09:29,081 - INFO - Replacing Gregor Samsa with shortcut GG
+2024-01-06 13:09:29,081 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:10:52,258 - INFO - Reading input from input.txt
+2024-01-06 13:10:52,258 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:10:52,258 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:10:52,259 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:10:52,259 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:12:14,066 - INFO - Reading input from input.txt
+2024-01-06 13:12:14,066 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:12:14,066 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:12:14,066 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:12:14,067 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:14:16,676 - INFO - Reading input from input.txt
+2024-01-06 13:14:16,677 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:14:16,678 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:15:55,098 - INFO - Reading input from input.txt
+2024-01-06 13:15:55,098 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:15:55,099 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:17:38,681 - INFO - Reading input from input.txt
+2024-01-06 13:17:38,681 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:17:38,681 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:17:57,383 - INFO - Reading input from input.txt
+2024-01-06 13:17:57,383 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:17:57,383 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:17:58,411 - INFO - Reading input from input.txt
+2024-01-06 13:17:58,411 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:17:58,412 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:17:58,685 - INFO - Reading input from input.txt
+2024-01-06 13:17:58,685 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:17:58,685 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:17:58,802 - INFO - Reading input from input.txt
+2024-01-06 13:17:58,802 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:17:58,803 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:17:58,963 - INFO - Reading input from input.txt
+2024-01-06 13:17:58,964 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:17:58,964 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:20:18,268 - INFO - Reading input from input.txt
+2024-01-06 13:20:18,269 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:20:18,270 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:20:19,649 - INFO - Reading input from input.txt
+2024-01-06 13:20:19,649 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:20:19,649 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:21:19,423 - INFO - Reading input from input.txt
+2024-01-06 13:21:19,424 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:21:19,424 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:21:19,424 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:21:19,424 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:21:56,220 - INFO - Reading input from input.txt
+2024-01-06 13:21:56,221 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:21:56,221 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:21:56,221 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:21:56,221 - INFO - Replacing Mass Suicide with MM
+2024-01-06 13:21:56,222 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:26:15,306 - INFO - Reading input from input.txt
+2024-01-06 13:26:15,307 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:26:15,307 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:26:15,307 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:26:15,307 - INFO - Replacing Mass Suicide with MM
+2024-01-06 13:26:15,307 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 13:29:05,491 - INFO - Starting manual compression.
+2024-01-06 13:29:05,492 - INFO - Reading input from input.txt
+2024-01-06 13:29:05,493 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:29:05,493 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:29:05,493 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 13:29:05,494 - INFO - Replacing Mass Suicide with MM
+2024-01-06 13:29:05,495 - INFO - Manual compression completed. Output saved to text.txt.
+2024-01-06 15:20:06,958 - INFO - Missing file config.ini. Will continue with default parameters.
+2024-01-06 15:20:06,959 - ERROR - Error: Input file 'input.txt' not found.
+2024-01-06 15:36:08,610 - INFO - Missing file config.ini. Will continue with default parameters.
+2024-01-06 15:36:08,611 - ERROR - Error: Input file '/home/aki/Workplace/git/Alpha2/input.txt' not found.
+2024-01-06 15:38:58,020 - INFO - Starting manual compression.
+2024-01-06 15:38:58,021 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 15:38:58,021 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 15:38:58,021 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 15:38:58,021 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 15:38:58,021 - INFO - Replacing Mass Suicide with MM
+2024-01-06 15:38:58,021 - INFO - Manual compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-06 15:39:23,677 - INFO - Starting auto compression.
+2024-01-06 15:39:23,677 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 15:39:23,678 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 15:39:23,678 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 15:39:23,678 - INFO - Applying shortcuts
+2024-01-06 15:39:23,678 - INFO - Applying contractions
+2024-01-06 15:39:23,678 - INFO - Skipping contractions.
+2024-01-06 15:39:23,679 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-06 15:41:19,542 - INFO - Starting auto compression.
+2024-01-06 15:41:19,542 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 15:41:19,543 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 15:41:19,543 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 15:41:19,543 - INFO - Applying shortcuts
+2024-01-06 15:41:19,543 - INFO - Skipping contractions.
+2024-01-06 15:41:19,544 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-06 15:42:42,904 - INFO - Starting auto compression.
+2024-01-06 15:42:42,904 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 15:42:42,905 - INFO - Applying shortcuts
+2024-01-06 15:42:42,905 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 15:42:42,906 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 15:42:42,906 - INFO - Skipping contractions.
+2024-01-06 15:42:42,907 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-06 16:01:15,533 - INFO - Starting auto compression.
+2024-01-06 16:01:15,533 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 16:01:15,533 - INFO - Applying shortcuts
+2024-01-06 16:01:15,534 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 16:01:15,534 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 16:01:15,534 - INFO - Skipping contractions.
+2024-01-06 16:01:15,534 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-06 16:03:33,420 - INFO - Starting manual compression.
+2024-01-06 16:03:33,420 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 16:03:33,421 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 16:03:33,421 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 16:03:33,421 - INFO - Replacing Gregor Samsa with GG
+2024-01-06 16:03:33,421 - INFO - Replacing Mass Suicide with MM
+2024-01-06 16:03:33,421 - INFO - Manual compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-06 16:03:48,479 - INFO - Starting auto compression.
+2024-01-06 16:03:48,479 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 16:03:48,479 - INFO - Applying shortcuts
+2024-01-06 16:03:48,479 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 16:03:48,480 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 16:03:48,480 - INFO - Skipping contractions.
+2024-01-06 16:03:48,480 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-06 16:03:49,675 - INFO - Starting auto compression.
+2024-01-06 16:03:49,675 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 16:03:49,675 - INFO - Applying shortcuts
+2024-01-06 16:03:49,675 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 16:03:49,676 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 16:03:49,676 - INFO - Skipping contractions.
+2024-01-06 16:03:49,676 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-06 16:05:11,777 - INFO - Starting auto compression.
+2024-01-06 16:05:11,777 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-06 16:05:11,777 - INFO - Applying shortcuts
+2024-01-06 16:05:11,778 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 16:05:11,778 - INFO - Replacing Gregor Samsa with GS
+2024-01-06 16:05:11,778 - INFO - Skipping contractions.
+2024-01-06 16:05:11,778 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.

@@ -1,20 +1,22 @@
 #!/bin/bash
 
+SCRIPT_PATH="src/alpha_compress.py"
+
 # Function for automatic compression
 function auto_compress {
     echo "Starting automatic compression with default parameters."
-    python -c "from alpha_compress import auto_compress; auto_compress()"
+    python -c "import sys; sys.path.append('$(dirname $SCRIPT_PATH)'); import $(basename $SCRIPT_PATH .py) as alpha_compress; alpha_compress.auto_compressor()"
 }
 
 # Function for manual compression (TO-DO: Implement manual compression)
 function manual_compress {
     echo "Starting manual compression."
-    # TO-DO
+    python -c "import sys; sys.path.append('$(dirname $SCRIPT_PATH)'); import $(basename $SCRIPT_PATH .py) as alpha_compress; alpha_compress.manual_compressor()"
 }
 
 # Function for configuration check
 function configure_compressor {
-    config_file="config.ini"
+    config_file="src/config.ini"
 
     # Check if the config file exists
     if [ ! -f "$config_file" ]; then
@@ -31,14 +33,14 @@ function configure_compressor {
     # Read new values from the user
     read -p "Input file path (Enter to keep current): " new_input_path
     read -p "Output file path (Enter to keep current): " new_output_path
-    read -p "Auto (1 or 0, Enter to keep current): " new_auto
+    read -p "Manual configuration file path (Enter to keep current): " new_manual_config_path
     read -p "Do shortcuts (1 or 0, Enter to keep current): " new_do_shortcuts
     read -p "Do contractions (1 or 0, Enter to keep current): " new_do_contractions
 
     # Use sed to update the config file
     sed -i "s|^input_file_path=.*|input_file_path=${new_input_path:-$(grep '^input_file_path=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
     sed -i "s|^output_file_path=.*|output_file_path=${new_output_path:-$(grep '^output_file_path=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
-    sed -i "s|^auto=.*|auto=${new_auto:-$(grep '^auto=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
+    sed -i "s|^manual_json_file_path=.*|manual_json_file_path=${new_manual_config_path:-$(grep '^manual_json_file_path=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
     sed -i "s|^do_shortcuts=.*|do_shortcuts=${new_do_shortcuts:-$(grep '^do_shortcuts=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
     sed -i "s|^do_contractions=.*|do_contractions=${new_do_contractions:-$(grep '^do_contractions=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
 

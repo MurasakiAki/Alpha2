@@ -1,100 +1,78 @@
 @echo off
-setlocal enabledelayedexpansion
+set SCRIPT_PATH=src\alpha_compress.py
 
 REM Function for automatic compression
 :auto_compress
 echo Starting automatic compression with default parameters.
-python -c "from alpha_compress import auto_compress; auto_compress()"
+python -c "import sys; sys.path.append('%~dp0'); import %~n0 as alpha_compress; alpha_compress.auto_compressor()"
 goto :eof
 
 REM Function for manual compression (TO-DO: Implement manual compression)
 :manual_compress
 echo Starting manual compression.
-REM TO-DO
+python -c "import sys; sys.path.append('%~dp0'); import %~n0 as alpha_compress; alpha_compress.manual_compressor()"
 goto :eof
 
 REM Function for configuration check
 :configure_compressor
-set "config_file=config.ini"
+set CONFIG_FILE=src\config.ini
 
 REM Check if the config file exists
-if not exist "%config_file%" (
-    echo Error: Configuration file '%config_file%' not found.
-    goto :eof
+if not exist %CONFIG_FILE% (
+    echo Error: Configuration file '%CONFIG_FILE%' not found.
+    exit /b 1
 )
 
 echo Current Configuration:
-type "%config_file%"
+type %CONFIG_FILE%
 
 echo.
 echo Enter new values for the configuration (press Enter to keep current value):
 
-REM Read new values from the user
-set /p "new_input_path=Input file path (Enter to keep current): "
-set /p "new_output_path=Output file path (Enter to keep current): "
-set /p "new_auto=Auto (1 or 0, Enter to keep current): "
-set /p "new_do_shortcuts=Do shortcuts (1 or 0, Enter to keep current): "
-set /p "new_do_contractions=Do contractions (1 or 0, Enter to keep current): "
+set /p new_input_path="Input file path (Enter to keep current): "
+set /p new_output_path="Output file path (Enter to keep current): "
+set /p new_manual_config_path="Manual configuration file path (Enter to keep current): "
+set /p new_do_shortcuts="Do shortcuts (1 or 0, Enter to keep current): "
+set /p new_do_contractions="Do contractions (1 or 0, Enter to keep current): "
 
 REM Use PowerShell to update the config file
 powershell -Command ^
-    "(Get-Content '%config_file%') -replace '^input_file_path=.*', 'input_file_path=!new_input_path!' |" ^
-    "Set-Content '%config_file%';" ^
-    "(Get-Content '%config_file%') -replace '^output_file_path=.*', 'output_file_path=!new_output_path!' |" ^
-    "Set-Content '%config_file%';" ^
-    "(Get-Content '%config_file%') -replace '^auto=.*', 'auto=!new_auto!' |" ^
-    "Set-Content '%config_file%';" ^
-    "(Get-Content '%config_file%') -replace '^do_shortcuts=.*', 'do_shortcuts=!new_do_shortcuts!' |" ^
-    "Set-Content '%config_file%';" ^
-    "(Get-Content '%config_file%') -replace '^do_contractions=.*', 'do_contractions=!new_do_contractions!' |" ^
-    "Set-Content '%config_file%'"
+    "(Get-Content '%CONFIG_FILE%') -replace '^input_file_path=.*', 'input_file_path=${new_input_path:-$(Get-Content '%CONFIG_FILE%' | Select-String '^input_file_path=' | ForEach-Object { $_ -replace '^input_file_path=' })}' | " ^
+    "Set-Content '%CONFIG_FILE%'; " ^
+    "(Get-Content '%CONFIG_FILE%') -replace '^output_file_path=.*', 'output_file_path=${new_output_path:-$(Get-Content '%CONFIG_FILE%' | Select-String '^output_file_path=' | ForEach-Object { $_ -replace '^output_file_path=' })}' | " ^
+    "Set-Content '%CONFIG_FILE%'; " ^
+    "(Get-Content '%CONFIG_FILE%') -replace '^manual_json_file_path=.*', 'manual_json_file_path=${new_manual_config_path:-$(Get-Content '%CONFIG_FILE%' | Select-String '^manual_json_file_path=' | ForEach-Object { $_ -replace '^manual_json_file_path=' })}' | " ^
+    "Set-Content '%CONFIG_FILE%'; " ^
+    "(Get-Content '%CONFIG_FILE%') -replace '^do_shortcuts=.*', 'do_shortcuts=${new_do_shortcuts:-$(Get-Content '%CONFIG_FILE%' | Select-String '^do_shortcuts=' | ForEach-Object { $_ -replace '^do_shortcuts=' })}' | " ^
+    "Set-Content '%CONFIG_FILE%'; " ^
+    "(Get-Content '%CONFIG_FILE%') -replace '^do_contractions=.*', 'do_contractions=${new_do_contractions:-$(Get-Content '%CONFIG_FILE%' | Select-String '^do_contractions=' | ForEach-Object { $_ -replace '^do_contractions=' })}' | " ^
+    "Set-Content '%CONFIG_FILE%'"
 
 echo Updated Configuration:
-type "%config_file%"
+type %CONFIG_FILE%
 
 echo.
 goto :eof
 
 REM Main menu
 :main_menu
-set "main_menu_prompt=Hello, what would you like to do?"
-set "sub_menu_prompt=Please select a compression method:"
+set main_menu_prompt=Hello, what would you like to do?
+set sub_menu_prompt=Please select a compression method:
 
-:main_menu_loop
+:menu_loop
 cls
 echo %main_menu_prompt%
-set "main_opt="
-choice /C CQ /N /M "Select an option: "
+choice /C CQ /N /M %sub_menu_prompt%
 if errorlevel 2 goto :quit
-if errorlevel 1 set "main_opt=Compress"
-if errorlevel 0 set "main_opt=Config"
+if errorlevel 1 (
+    choice /C AMB /N /M %sub_menu_prompt%
+    if errorlevel 3 goto :menu_loop
+    if errorlevel 2 goto :manual_compress
+    if errorlevel 1 goto :auto_compress
+)
+goto :menu_loop
 
-if "%main_opt%"=="Compress" goto :compress_menu
-if "%main_opt%"=="Config" goto :configure_compressor
-goto :main_menu_loop
-
-:compress_menu
-:compress_menu_loop
-cls
-echo %sub_menu_prompt%
-set "com_opt="
-choice /C AMB /N /M "Select a compression method: "
-if errorlevel 3 goto :main_menu
-if errorlevel 2 set "com_opt=Manual"
-if errorlevel 1 set "com_opt=Auto"
-if errorlevel 0 goto :compress_menu_loop
-
-:auto_compress
-call :auto_compress
-goto :compress_menu_loop
-
-:manual_compress
-call :manual_compress
-goto :compress_menu_loop
-
-:main_menu
-goto :main_menu_loop
-
+REM Quit
 :quit
 echo Thank you
-goto :eof
+exit /b
