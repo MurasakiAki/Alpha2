@@ -64,8 +64,17 @@ def read_file(file_path):
     Returns:
         str: Content of the file.
     """
-    with open(file_path, 'r', encoding='utf-8') as file:
-        return file.read()
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+            if not content:
+                logging.error(f"The file {file_path} is empty.")
+            return content
+    except FileNotFoundError:
+        logging.error(f"File not found: {file_path}")
+    except Exception as e:
+        logging.error(f"Error reading file {file_path}: {e}")
+
 
 def find_repeated_phrases(text):
     """
@@ -181,6 +190,7 @@ def compress_text(input_file, output_file):
         input_file (str): Path to the input file.
         output_file (str): Path to the output file.
     """
+
     logging.info(f"Reading input from {input_file}")
     text = read_file(input_file)
 
@@ -195,6 +205,7 @@ def compress_text(input_file, output_file):
     # Write the modified text to the output file
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(modified_text)
+
 def write_log():
     """
     Write log data into a log file.
@@ -251,7 +262,7 @@ def manual_compressor():
             exit()
 
     if not phrase_shortcuts or not isinstance(phrase_shortcuts, dict):
-        logging.error("Invalid JSON format. Expected a dictionary of phrases and shortcuts.")
+        logging.error("Invalid JSON format. Expected format: { 'phrase': 'shortcut' }.")
         exit()
 
     logging.info(f"Reading input from {INPUT_FILE}")
@@ -259,11 +270,13 @@ def manual_compressor():
 
     # Apply manual shortcuts
     modified_text = re.sub(r'\b(?:' + '|'.join(map(re.escape, phrase_shortcuts.keys())) + r')\b',
-                           lambda match: replace_repeated_phrases(match, phrase_shortcuts),
-                           text)
+                        lambda match: replace_repeated_phrases(match, phrase_shortcuts),
+                        text)
 
     # Write the modified text to the output file
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as file:
         file.write(modified_text)
 
     logging.info(f"Manual compression completed. Output saved to {OUTPUT_FILE}.")
+
+auto_compressor()
