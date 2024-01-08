@@ -1,369 +1,231 @@
-2024-01-07 15:02:44,212 - INFO - Starting auto compression.
-2024-01-07 15:02:44,212 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:02:44,212 - ERROR - Empty input file.
-2024-01-07 15:02:44,212 - INFO - Applying shortcuts
-2024-01-07 15:02:57,870 - INFO - Starting auto compression.
-2024-01-07 15:02:57,871 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:02:57,871 - INFO - Applying shortcuts
-2024-01-07 15:02:57,871 - INFO - Skipping contractions.
-2024-01-07 15:02:57,871 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:03:21,141 - INFO - Starting auto compression.
-2024-01-07 15:03:21,141 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:03:21,141 - INFO - Applying shortcuts
-2024-01-07 15:03:21,142 - INFO - Skipping contractions.
-2024-01-07 15:03:21,142 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:03:24,263 - INFO - Starting auto compression.
-2024-01-07 15:03:24,263 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:03:24,263 - INFO - Applying shortcuts
-2024-01-07 15:03:24,263 - INFO - Skipping contractions.
-2024-01-07 15:03:24,264 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:03:55,739 - INFO - Starting auto compression.
-2024-01-07 15:03:55,739 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:03:55,739 - INFO - Applying shortcuts
-2024-01-07 15:03:55,740 - INFO - Skipping contractions.
-2024-01-07 15:03:55,740 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:04:00,569 - INFO - Starting auto compression.
-2024-01-07 15:04:00,570 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:04:00,570 - INFO - Applying shortcuts
-2024-01-07 15:04:00,570 - INFO - Skipping contractions.
-2024-01-07 15:04:00,570 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:04:01,064 - INFO - Starting auto compression.
-2024-01-07 15:04:01,064 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:04:01,064 - INFO - Applying shortcuts
-2024-01-07 15:04:01,065 - INFO - Skipping contractions.
-2024-01-07 15:04:01,065 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:05:47,157 - INFO - Starting auto compression.
-2024-01-07 15:05:47,157 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:05:47,158 - ERROR - The file /home/aki/Workplace/git/Alpha2/work_folder/input.txt is empty.
-2024-01-07 15:05:47,158 - INFO - Applying shortcuts
-2024-01-07 15:06:17,510 - INFO - Starting auto compression.
-2024-01-07 15:06:17,511 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:06:17,511 - ERROR - The file /home/aki/Workplace/git/Alpha2/work_folder/input.txt is empty.
-2024-01-07 15:06:17,511 - INFO - Applying shortcuts
-2024-01-07 15:06:17,511 - INFO - Skipping contractions.
-2024-01-07 15:06:17,511 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:08:18,941 - INFO - Starting auto compression.
-2024-01-07 15:08:18,941 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:08:18,942 - ERROR - The file /home/aki/Workplace/git/Alpha2/work_folder/input.txt is empty.
-2024-01-07 15:08:18,942 - INFO - Applying shortcuts
-2024-01-07 15:08:18,942 - INFO - Skipping contractions.
-2024-01-07 15:08:18,942 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:08:21,098 - INFO - Starting auto compression.
-2024-01-07 15:08:21,099 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:08:21,099 - ERROR - The file /home/aki/Workplace/git/Alpha2/work_folder/input.txt is empty.
-2024-01-07 15:08:21,099 - INFO - Applying shortcuts
-2024-01-07 15:08:21,099 - INFO - Skipping contractions.
-2024-01-07 15:08:21,100 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:10:21,540 - INFO - Starting auto compression.
-2024-01-07 15:10:21,540 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:10:21,540 - ERROR - The file /home/aki/Workplace/git/Alpha2/work_folder/input.txt is empty.
-2024-01-07 15:10:21,540 - INFO - Applying shortcuts
-2024-01-07 15:10:21,540 - INFO - Skipping contractions.
-2024-01-07 15:10:21,541 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:12:33,893 - INFO - Starting auto compression.
-2024-01-07 15:12:33,893 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:12:33,893 - ERROR - The file /home/aki/Workplace/git/Alpha2/work_folder/input.txt is empty.
-2024-01-07 15:12:33,893 - INFO - Applying shortcuts
-2024-01-07 15:12:33,894 - INFO - Skipping contractions.
-2024-01-07 15:12:33,894 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:12:56,017 - INFO - Starting auto compression.
-2024-01-07 15:12:56,017 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:12:56,017 - ERROR - The file /home/aki/Workplace/git/Alpha2/work_folder/input.txt is empty.
-2024-01-07 15:12:56,017 - INFO - Applying shortcuts
-2024-01-07 15:12:56,017 - INFO - Skipping contractions.
-2024-01-07 15:12:56,018 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-2024-01-07 15:15:12,972 - INFO - Starting auto compression.
-2024-01-07 15:15:12,972 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-2024-01-07 15:15:12,973 - ERROR - The file /home/aki/Workplace/git/Alpha2/work_folder/input.txt is empty.
-2024-01-07 15:15:12,973 - INFO - Applying shortcuts
-2024-01-07 15:15:12,974 - INFO - Skipping contractions.
-2024-01-07 15:15:12,974 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-/home/aki/Workplace/git/Alpha2/src/config.ini: line 1: [Configuration]: command not found
-Error: Input file '' not found.
-/dev/fd/63: line 1: [Configuration]: command not found
-Error: Input file '' not found.
-Error: Input file '' not found.
-Error: Input file '' not found.
-./src/alpha_compress.sh: line 16: [Configuration]: command not found
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 53: \1: syntax error: operand expected (error token is "\1")
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-/home/aki/Workplace/git/Alpha2/src/config.ini: line 1: [Configuration]: command not found
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 48: \1: syntax error: operand expected (error token is "\1")
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-/home/aki/Workplace/git/Alpha2/src/config.ini: line 1: [Configuration]: command not found
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 48: \0: syntax error: operand expected (error token is "\0")
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-./src/alpha_compress.sh: line 12: export: `[Configuration]=': not a valid identifier
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 52: \0: syntax error: operand expected (error token is "\0")
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 52: \0: syntax error: operand expected (error token is "\0")
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 52: &: syntax error: operand expected (error token is "&")
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 52: \\0: syntax error: operand expected (error token is "\\0")
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 70: h: command not found
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-./src/alpha_compress.sh: line 52: \0: syntax error: operand expected (error token is "\0")
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-awk: cmd. line:8: (FILENAME=- FNR=1) fatal: attempt to use scalar `phrase_shortcuts' as an array
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-sed: -e expression #1, char 24: unterminated `s' command
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Applying contractions
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
-Starting auto compression.
-Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
-Applying shortcuts
-Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-08 19:17:16,323 - INFO - Starting auto compression.
+2024-01-08 19:17:16,323 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-08 19:17:16,323 - INFO - Applying shortcuts
+2024-01-08 19:17:16,324 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-08 19:20:08,257 - INFO - Starting auto compression.
+2024-01-08 19:20:08,257 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-08 19:20:08,258 - INFO - Applying shortcuts
+2024-01-08 19:20:08,259 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,260 - INFO - Replacing were filled with WF
+2024-01-08 19:20:08,260 - INFO - Replacing with the with WT
+2024-01-08 19:20:08,261 - INFO - Replacing of his with OH
+2024-01-08 19:20:08,261 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,261 - INFO - Replacing his music with HM
+2024-01-08 19:20:08,262 - INFO - Replacing with the with WT
+2024-01-08 19:20:08,262 - INFO - Replacing of Ondřej with OO
+2024-01-08 19:20:08,262 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,262 - INFO - Replacing of Prague with OP
+2024-01-08 19:20:08,263 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,263 - INFO - Replacing of his with OH
+2024-01-08 19:20:08,263 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,263 - INFO - Replacing were filled with WF
+2024-01-08 19:20:08,264 - INFO - Replacing with the with WT
+2024-01-08 19:20:08,264 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,264 - INFO - Replacing his music with HM
+2024-01-08 19:20:08,264 - INFO - Replacing of the with OT
+2024-01-08 19:20:08,265 - INFO - Replacing of the with OT
+2024-01-08 19:20:08,265 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,265 - INFO - Replacing his music with HM
+2024-01-08 19:20:08,266 - INFO - Replacing of Prague with OP
+2024-01-08 19:20:08,266 - INFO - Replacing of Ondřej with OO
+2024-01-08 19:20:08,266 - INFO - Replacing His name with HN
+2024-01-08 19:20:08,266 - INFO - Replacing and his with AH
+2024-01-08 19:20:08,267 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,267 - INFO - Replacing His name with HN
+2024-01-08 19:20:08,267 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:20:08,267 - INFO - Replacing and his with AH
+2024-01-08 19:20:08,268 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-08 19:28:49,714 - INFO - Starting auto compression.
+2024-01-08 19:28:49,715 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-08 19:28:49,715 - INFO - Applying shortcuts
+2024-01-08 19:32:04,564 - INFO - Starting auto compression.
+2024-01-08 19:32:04,564 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-08 19:32:04,564 - INFO - Applying shortcuts
+2024-01-08 19:32:04,565 - INFO - Replacing Once upon with Onceupon (O)
+2024-01-08 19:32:04,565 - INFO - Replacing a time with atime (a)
+2024-01-08 19:32:04,566 - INFO - Replacing in the with inthe (i)
+2024-01-08 19:32:04,566 - INFO - Replacing quaint town with quainttown (q)
+2024-01-08 19:32:04,566 - INFO - Replacing of Vltava with ofVltava (o)
+2024-01-08 19:32:04,567 - INFO - Replacing there lived with therelived (t)
+2024-01-08 19:32:04,567 - INFO - Replacing a young with ayoung (a)
+2024-01-08 19:32:04,567 - INFO - Replacing man named with mannamed (m)
+2024-01-08 19:32:04,567 - INFO - Replacing Ondřej Mandík with OndřejMandík (O)
+2024-01-08 19:32:04,568 - INFO - Replacing Ondřej was with Ondřejwas (O)
+2024-01-08 19:32:04,568 - INFO - Replacing not an with notan (n)
+2024-01-08 19:32:04,568 - INFO - Replacing ordinary fellow with ordinaryfellow (o)
+2024-01-08 19:32:04,569 - INFO - Replacing he possessed with hepossessed (h)
+2024-01-08 19:32:04,569 - INFO - Replacing an extraordinary with anextraordinary (a)
+2024-01-08 19:32:04,569 - INFO - Replacing talent for with talentfor (t)
+2024-01-08 19:32:04,569 - INFO - Replacing His days with Hisdays (H)
+2024-01-08 19:32:04,570 - INFO - Replacing were filled with werefilled (w)
+2024-01-08 19:32:04,570 - INFO - Replacing with the with withthe (w)
+2024-01-08 19:32:04,570 - INFO - Replacing sweet melodies with sweetmelodies (s)
+2024-01-08 19:32:04,571 - INFO - Replacing of his with ofhis (o)
+2024-01-08 19:32:04,571 - INFO - Replacing echoing through with echoingthrough (e)
+2024-01-08 19:32:04,571 - INFO - Replacing the cobblestone with thecobblestone (t)
+2024-01-08 19:32:04,572 - INFO - Replacing streets and with streetsand (s)
+2024-01-08 19:32:04,572 - INFO - Replacing capturing the with capturingthe (c)
+2024-01-08 19:32:04,572 - INFO - Replacing hearts of with heartsof (h)
+2024-01-08 19:32:04,573 - INFO - Replacing everyone who with everyonewho (e)
+2024-01-08 19:32:04,573 - INFO - Replacing had a with hada (h)
+2024-01-08 19:32:04,573 - INFO - Replacing a dream with adream (a)
+2024-01-08 19:32:04,574 - INFO - Replacing of sharing with ofsharing (o)
+2024-01-08 19:32:04,574 - INFO - Replacing his music with hismusic (h)
+2024-01-08 19:32:04,574 - INFO - Replacing One day with Oneday (O)
+2024-01-08 19:32:04,574 - INFO - Replacing as he with ashe (a)
+2024-01-08 19:32:04,575 - INFO - Replacing strummed his with strummedhis (s)
+2024-01-08 19:32:04,575 - INFO - Replacing guitar beneath with guitarbeneath (g)
+2024-01-08 19:32:04,575 - INFO - Replacing the ancient with theancient (t)
+2024-01-08 19:32:04,576 - INFO - Replacing tree by with treeby (t)
+2024-01-08 19:32:04,576 - INFO - Replacing the river with theriver (t)
+2024-01-08 19:32:04,576 - INFO - Replacing a mysterious with amysterious (a)
+2024-01-08 19:32:04,577 - INFO - Replacing figure appeared with figureappeared (f)
+2024-01-08 19:32:04,577 - INFO - Replacing The stranger with Thestranger (T)
+2024-01-08 19:32:04,577 - INFO - Replacing a music with amusic (a)
+2024-01-08 19:32:04,577 - INFO - Replacing producer named with producernamed (p)
+2024-01-08 19:32:04,578 - INFO - Replacing was entranced with wasentranced (w)
+2024-01-08 19:32:04,579 - INFO - Replacing by the with bythe (b)
+2024-01-08 19:32:04,579 - INFO - Replacing enchanting tunes with enchantingtunes (e)
+2024-01-08 19:32:04,579 - INFO - Replacing of Ondřej with ofOndřej (o)
+2024-01-08 19:32:04,579 - INFO - Replacing Radovan approached with Radovanapproached (R)
+2024-01-08 19:32:04,580 - INFO - Replacing Ondřej and with Ondřejand (O)
+2024-01-08 19:32:04,580 - INFO - Replacing your music with yourmusic (y)
+2024-01-08 19:32:04,580 - INFO - Replacing is like with islike (i)
+2024-01-08 19:32:04,581 - INFO - Replacing a spell with aspell (a)
+2024-01-08 19:32:04,581 - INFO - Replacing captivating all with captivatingall (c)
+2024-01-08 19:32:04,581 - INFO - Replacing who listen with wholisten (w)
+2024-01-08 19:32:04,581 - INFO - Replacing I can with Ican (I)
+2024-01-08 19:32:04,582 - INFO - Replacing make you with makeyou (m)
+2024-01-08 19:32:04,582 - INFO - Replacing a star with astar (a)
+2024-01-08 19:32:04,582 - INFO - Replacing but you with butyou (b)
+2024-01-08 19:32:04,583 - INFO - Replacing must come with mustcome (m)
+2024-01-08 19:32:04,583 - INFO - Replacing with me with withme (w)
+2024-01-08 19:32:04,583 - INFO - Replacing to the with tothe (t)
+2024-01-08 19:32:04,583 - INFO - Replacing bustling city with bustlingcity (b)
+2024-01-08 19:32:04,584 - INFO - Replacing of Prague with ofPrague (o)
+2024-01-08 19:32:04,584 - INFO - Replacing hesitated for with hesitatedfor (h)
+2024-01-08 19:32:04,584 - INFO - Replacing a moment with amoment (a)
+2024-01-08 19:32:04,585 - INFO - Replacing torn between with tornbetween (t)
+2024-01-08 19:32:04,585 - INFO - Replacing the comfort with thecomfort (t)
+2024-01-08 19:32:04,585 - INFO - Replacing small town with smalltown (s)
+2024-01-08 19:32:04,585 - INFO - Replacing and
+the with andthe (a)
+2024-01-08 19:32:04,585 - INFO - Replacing allure of with allureof (a)
+2024-01-08 19:32:04,585 - INFO - Replacing a grand with agrand (a)
+2024-01-08 19:32:04,586 - INFO - Replacing musical journey with musicaljourney (m)
+2024-01-08 19:32:04,586 - INFO - Replacing he gathered with hegathered (h)
+2024-01-08 19:32:04,586 - INFO - Replacing his courage with hiscourage (h)
+2024-01-08 19:32:04,586 - INFO - Replacing and agreed with andagreed (a)
+2024-01-08 19:32:04,586 - INFO - Replacing to embark with toembark (t)
+2024-01-08 19:32:04,586 - INFO - Replacing on this with onthis (o)
+2024-01-08 19:32:04,587 - INFO - Replacing In Prague with InPrague (I)
+2024-01-08 19:32:04,587 - INFO - Replacing s talent with stalent (s)
+2024-01-08 19:32:04,587 - INFO - Replacing shone even with shoneeven (s)
+2024-01-08 19:32:04,587 - INFO - Replacing The city with Thecity (T)
+2024-01-08 19:32:04,587 - INFO - Replacing embraced him with embracedhim (e)
+2024-01-08 19:32:04,587 - INFO - Replacing and soon with andsoon (a)
+2024-01-08 19:32:04,587 - INFO - Replacing his name with hisname (h)
+2024-01-08 19:32:04,587 - INFO - Replacing echoed through with echoedthrough (e)
+2024-01-08 19:32:04,587 - INFO - Replacing the vibrant with thevibrant (t)
+2024-01-08 19:32:04,588 - INFO - Replacing Concert halls with Concerthalls (C)
+2024-01-08 19:32:04,588 - INFO - Replacing harmonies of with harmoniesof (h)
+2024-01-08 19:32:04,588 - INFO - Replacing drawing people with drawingpeople (d)
+2024-01-08 19:32:04,588 - INFO - Replacing from all with fromall (f)
+2024-01-08 19:32:04,588 - INFO - Replacing corners to with cornersto (c)
+2024-01-08 19:32:04,588 - INFO - Replacing witness the with witnessthe (w)
+2024-01-08 19:32:04,588 - INFO - Replacing magic of with magicof (m)
+2024-01-08 19:32:04,589 - INFO - Replacing As fame with Asfame (A)
+2024-01-08 19:32:04,589 - INFO - Replacing embraced Ondřej with embracedOndřej (e)
+2024-01-08 19:32:04,589 - INFO - Replacing he remained with heremained (h)
+2024-01-08 19:32:04,589 - INFO - Replacing humble and with humbleand (h)
+2024-01-08 19:32:04,589 - INFO - Replacing true to with trueto (t)
+2024-01-08 19:32:04,589 - INFO - Replacing his roots with hisroots (h)
+2024-01-08 19:32:04,590 - INFO - Replacing His heart with Hisheart (H)
+2024-01-08 19:32:04,590 - INFO - Replacing never forgot with neverforgot (n)
+2024-01-08 19:32:04,590 - INFO - Replacing the melody with themelody (t)
+2024-01-08 19:32:04,590 - INFO - Replacing of the with ofthe (o)
+2024-01-08 19:32:04,591 - INFO - Replacing Vltava river with Vltavariver (V)
+2024-01-08 19:32:04,591 - INFO - Replacing rustling leaves with rustlingleaves (r)
+2024-01-08 19:32:04,591 - INFO - Replacing ancient willow with ancientwillow (a)
+2024-01-08 19:32:04,591 - INFO - Replacing s success with ssuccess (s)
+2024-01-08 19:32:04,591 - INFO - Replacing was not with wasnot (w)
+2024-01-08 19:32:04,591 - INFO - Replacing just about with justabout (j)
+2024-01-08 19:32:04,592 - INFO - Replacing it was with itwas (i)
+2024-01-08 19:32:04,592 - INFO - Replacing also a with alsoa (a)
+2024-01-08 19:32:04,592 - INFO - Replacing testament to with testamentto (t)
+2024-01-08 19:32:04,592 - INFO - Replacing his authenticity with hisauthenticity (h)
+2024-01-08 19:32:04,592 - INFO - Replacing and passion with andpassion (a)
+2024-01-08 19:32:04,592 - INFO - Replacing In the with Inthe (I)
+2024-01-08 19:32:04,592 - INFO - Replacing grand concert with grandconcert (g)
+2024-01-08 19:32:04,592 - INFO - Replacing halls and with hallsand (h)
+2024-01-08 19:32:04,592 - INFO - Replacing bustling streets with bustlingstreets (b)
+2024-01-08 19:32:04,592 - INFO - Replacing people spoke with peoplespoke (p)
+2024-01-08 19:32:04,593 - INFO - Replacing Mandík with with Mandíkwith (M)
+2024-01-08 19:32:04,593 - INFO - Replacing His name with Hisname (H)
+2024-01-08 19:32:04,593 - INFO - Replacing became
+synonymous with becamesynonymous (b)
+2024-01-08 19:32:04,593 - INFO - Replacing with musical with withmusical (w)
+2024-01-08 19:32:04,593 - INFO - Replacing and his with andhis (a)
+2024-01-08 19:32:04,593 - INFO - Replacing story inspired with storyinspired (s)
+2024-01-08 19:32:04,593 - INFO - Replacing aspiring artists with aspiringartists (a)
+2024-01-08 19:32:04,593 - INFO - Replacing to follow with tofollow (t)
+2024-01-08 19:32:04,593 - INFO - Replacing their dreams with theirdreams (t)
+2024-01-08 19:32:04,594 - INFO - Replacing And so with Andso (A)
+2024-01-08 19:32:04,594 - INFO - Replacing continued to with continuedto (c)
+2024-01-08 19:32:04,594 - INFO - Replacing weave his with weavehis (w)
+2024-01-08 19:32:04,594 - INFO - Replacing musical tapestry with musicaltapestry (m)
+2024-01-08 19:32:04,594 - INFO - Replacing enchanting audiences with enchantingaudiences (e)
+2024-01-08 19:32:04,594 - INFO - Replacing far and with farand (f)
+2024-01-08 19:32:04,594 - INFO - Replacing spoken in with spokenin (s)
+2024-01-08 19:32:04,594 - INFO - Replacing became a with becamea (b)
+2024-01-08 19:32:04,595 - INFO - Replacing symbol of with symbolof (s)
+2024-01-08 19:32:04,595 - INFO - Replacing the extraordinary with theextraordinary (t)
+2024-01-08 19:32:04,595 - INFO - Replacing journey from with journeyfrom (j)
+2024-01-08 19:32:04,595 - INFO - Replacing a small with asmall (a)
+2024-01-08 19:32:04,595 - INFO - Replacing town to with townto (t)
+2024-01-08 19:32:04,595 - INFO - Replacing the grand with thegrand (t)
+2024-01-08 19:32:04,595 - INFO - Replacing stage of with stageof (s)
+2024-01-08 19:32:04,595 - INFO - Replacing the boy with theboy (t)
+2024-01-08 19:32:04,595 - INFO - Replacing from Vltava with fromVltava (f)
+2024-01-08 19:32:04,595 - INFO - Replacing had become with hadbecome (h)
+2024-01-08 19:32:04,596 - INFO - Replacing a legend with alegend (a)
+2024-01-08 19:32:04,596 - INFO - Replacing melodies echoed with melodiesechoed (m)
+2024-01-08 19:32:04,596 - INFO - Replacing for generations with forgenerations (f)
+2024-01-08 19:32:04,596 - INFO - Replacing to come with tocome (t)
+2024-01-08 19:32:04,596 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-08 19:33:47,178 - INFO - Starting auto compression.
+2024-01-08 19:33:47,178 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-08 19:33:47,178 - INFO - Applying shortcuts
+2024-01-08 19:34:16,408 - INFO - Starting auto compression.
+2024-01-08 19:34:16,408 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-08 19:34:16,409 - INFO - Applying shortcuts
+2024-01-08 19:34:16,410 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,410 - INFO - Replacing were filled with WF
+2024-01-08 19:34:16,411 - INFO - Replacing with the with WT
+2024-01-08 19:34:16,411 - INFO - Replacing of his with OH
+2024-01-08 19:34:16,411 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,412 - INFO - Replacing his music with HM
+2024-01-08 19:34:16,412 - INFO - Replacing with the with WT
+2024-01-08 19:34:16,412 - INFO - Replacing of Ondřej with OO
+2024-01-08 19:34:16,412 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,413 - INFO - Replacing of Prague with OP
+2024-01-08 19:34:16,413 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,413 - INFO - Replacing of his with OH
+2024-01-08 19:34:16,414 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,414 - INFO - Replacing were filled with WF
+2024-01-08 19:34:16,414 - INFO - Replacing with the with WT
+2024-01-08 19:34:16,415 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,415 - INFO - Replacing his music with HM
+2024-01-08 19:34:16,416 - INFO - Replacing of the with OT
+2024-01-08 19:34:16,416 - INFO - Replacing of the with OT
+2024-01-08 19:34:16,416 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,417 - INFO - Replacing his music with HM
+2024-01-08 19:34:16,417 - INFO - Replacing of Prague with OP
+2024-01-08 19:34:16,417 - INFO - Replacing of Ondřej with OO
+2024-01-08 19:34:16,418 - INFO - Replacing His name with HN
+2024-01-08 19:34:16,418 - INFO - Replacing and his with AH
+2024-01-08 19:34:16,418 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,419 - INFO - Replacing His name with HN
+2024-01-08 19:34:16,419 - INFO - Replacing Ondřej Mandík with OM
+2024-01-08 19:34:16,419 - INFO - Replacing and his with AH
+2024-01-08 19:34:16,420 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.

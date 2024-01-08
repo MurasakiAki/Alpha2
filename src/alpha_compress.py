@@ -195,16 +195,18 @@ def compress_text(input_file, output_file):
     text = read_file(input_file)
 
     # Apply shortcuts
-    if DO_SHORT: logging.info("Applying shortcuts")
-    modified_text = shortcut(text)
+    if DO_SHORT:
+        logging.info("Applying shortcuts")
+        text = shortcut(text)
 
     # Apply contractions
-    if DO_CONTR: logging.info("Applying contractions")
-    modified_text = contraction(modified_text)
+    if DO_CONTR:
+        logging.info("Applying contractions")
+        text = contraction(text)
 
     # Write the modified text to the output file
     with open(output_file, 'w', encoding='utf-8') as file:
-        file.write(modified_text)
+        file.write(text)
 
 def write_log():
     """
@@ -270,8 +272,8 @@ def manual_compressor():
 
     # Apply manual shortcuts
     modified_text = re.sub(r'\b(?:' + '|'.join(map(re.escape, phrase_shortcuts.keys())) + r')\b',
-                        lambda match: replace_repeated_phrases(match, phrase_shortcuts),
-                        text)
+                    lambda match: replace_repeated_phrases(re.match(r'\b\w+\s\w+\b', match.group(0)), phrase_shortcuts),
+                    text)
 
     # Write the modified text to the output file
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as file:
