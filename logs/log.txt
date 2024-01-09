@@ -229,3 +229,36 @@ synonymous with becamesynonymous (b)
 2024-01-08 19:34:16,419 - INFO - Replacing Ondřej Mandík with OM
 2024-01-08 19:34:16,419 - INFO - Replacing and his with AH
 2024-01-08 19:34:16,420 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.
+2024-01-09 17:19:22,582 - INFO - Starting auto compression.
+2024-01-09 17:19:22,582 - INFO - Reading input from /home/aki/Workplace/git/Alpha2/work_folder/input.txt
+2024-01-09 17:19:22,582 - INFO - Applying shortcuts
+2024-01-09 17:19:22,583 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,583 - INFO - Replacing were filled with WF
+2024-01-09 17:19:22,583 - INFO - Replacing with the with WT
+2024-01-09 17:19:22,583 - INFO - Replacing of his with OH
+2024-01-09 17:19:22,583 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,583 - INFO - Replacing his music with HM
+2024-01-09 17:19:22,584 - INFO - Replacing with the with WT
+2024-01-09 17:19:22,584 - INFO - Replacing of Ondřej with OO
+2024-01-09 17:19:22,584 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,584 - INFO - Replacing of Prague with OP
+2024-01-09 17:19:22,584 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,584 - INFO - Replacing of his with OH
+2024-01-09 17:19:22,584 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,584 - INFO - Replacing were filled with WF
+2024-01-09 17:19:22,584 - INFO - Replacing with the with WT
+2024-01-09 17:19:22,584 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,585 - INFO - Replacing his music with HM
+2024-01-09 17:19:22,585 - INFO - Replacing of the with OT
+2024-01-09 17:19:22,585 - INFO - Replacing of the with OT
+2024-01-09 17:19:22,585 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,585 - INFO - Replacing his music with HM
+2024-01-09 17:19:22,585 - INFO - Replacing of Prague with OP
+2024-01-09 17:19:22,585 - INFO - Replacing of Ondřej with OO
+2024-01-09 17:19:22,585 - INFO - Replacing His name with HN
+2024-01-09 17:19:22,585 - INFO - Replacing and his with AH
+2024-01-09 17:19:22,585 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,586 - INFO - Replacing His name with HN
+2024-01-09 17:19:22,586 - INFO - Replacing Ondřej Mandík with OM
+2024-01-09 17:19:22,586 - INFO - Replacing and his with AH
+2024-01-09 17:19:22,586 - INFO - Auto compression completed. Output saved to /home/aki/Workplace/git/Alpha2/work_folder/output.txt.

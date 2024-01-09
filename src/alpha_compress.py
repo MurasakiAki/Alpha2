@@ -20,6 +20,7 @@ def read_config():
     global INPUT_FILE
     global OUTPUT_FILE
     global MANUAL_CONFIG_FILE
+    global OUTPUT_BOOKLET_FILE
     global DO_SHORT
     global DO_CONTR
 
@@ -32,6 +33,7 @@ def read_config():
             INPUT_FILE = os.path.join(MAIN_DIR, config['Configuration'].get('input_file_path', 'work_folder/input.txt'))
             OUTPUT_FILE = os.path.join(MAIN_DIR, config['Configuration'].get('output_file_path', 'work_folder/output.txt'))
             MANUAL_CONFIG_FILE = os.path.join(MAIN_DIR, config['Configuration'].get('manual_json_file_path', 'work_folder/manual_config.json'))
+            OUTPUT_BOOKLET_FILE = os.path.join(MAIN_DIR, config['Configuration'].get('booklet_json_file_path', 'work_folder/output_booklet.json'))
             DO_SHORT = int(config['Configuration'].get('do_shortcuts', '1'))
             DO_CONTR = int(config['Configuration'].get('do_contractions', '1'))
 
@@ -41,6 +43,7 @@ def read_config():
                 'input_file_path': 'work_folder/input.txt',
                 'output_file_path': 'work_folder/output.txt',
                 'manual_json_file_path': 'work_folder/manual_config.json',
+                'booklet_json_file_path': 'work_folder/output_booklet.json',
                 'do_shortcuts': '1',
                 'do_contractions': '1'
             }
@@ -51,6 +54,7 @@ def read_config():
         INPUT_FILE = os.path.join(MAIN_DIR, config['Configuration'].get('input_file_path', 'work_folder/input.txt'))
         OUTPUT_FILE = os.path.join(MAIN_DIR, config['Configuration'].get('output_file_path', 'work_folder/output.txt'))
         MANUAL_CONFIG_FILE = os.path.join(MAIN_DIR, config['Configuration'].get('manual_json_file_path', 'work_folder/manual_config.json'))
+        OUTPUT_BOOKLET_FILE = os.path.join(MAIN_DIR, config['Configuration'].get('booklet_json_file_path', 'work_folder/output_booklet.json'))
         DO_SHORT = int(config['Configuration'].get('do_shortcuts', '1'))
         DO_CONTR = int(config['Configuration'].get('do_contractions', '1'))
 
@@ -126,6 +130,9 @@ def shortcut(text):
             phrase_shortcuts[phrase] = shortcut
 
         modified_text = re.sub(r'\b(\w+\s\w+)\b', lambda match: replace_repeated_phrases(match, phrase_shortcuts), text)
+
+        with open(OUTPUT_BOOKLET_FILE, 'w', encoding='utf-8') as booklet_file:
+            json.dump(phrase_shortcuts, booklet_file, indent=2)
 
         return modified_text
     else:
