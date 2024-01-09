@@ -8,15 +8,10 @@ chmod +x compressor.sh
 if [ -f "$HOME/.bashrc" ]; then
     echo "alias compressor='bash "$(pwd)"/compressor.sh'" >> "$HOME/.bashrc"
 
-    source "$HOME/.bashrc"
-
-    if [ "$1" == "-ex" ]; then
-        echo "Executing 'compressor' command..."
-        compressor
-    else
-        echo "To execute the compressor, run 'compressor' command."
-    fi
-
+    . ~/.bashrc
+    shopt -s expand_aliases
+    echo "To execute the compressor, run 'compressor' command."
+    
 else
     echo "You are using different profile file than .bashrc."
     echo "Please set up manualy alias for compressor.sh by"
