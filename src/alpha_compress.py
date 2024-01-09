@@ -8,7 +8,7 @@ import configparser
 
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 MAIN_DIR = os.path.dirname(os.path.abspath(SRC_DIR))
-LOG_FILE = os.path.join(MAIN_DIR, "logs/log.txt")
+LOG_FILE = os.path.join(MAIN_DIR, "logs/log.txt")+
 
 def read_config():
     """
