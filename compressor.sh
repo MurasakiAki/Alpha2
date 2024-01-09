@@ -34,6 +34,7 @@ function configure_compressor {
     read -p "Input file path (Enter to keep current): " new_input_path
     read -p "Output file path (Enter to keep current): " new_output_path
     read -p "Manual configuration file path (Enter to keep current): " new_manual_config_path
+    read -p "Output booklet file path (Enter to keep current): " new_booklet_path
     read -p "Do shortcuts (1 or 0, Enter to keep current): " new_do_shortcuts
     read -p "Do contractions (1 or 0, Enter to keep current): " new_do_contractions
 
@@ -41,6 +42,7 @@ function configure_compressor {
     sed -i "s|^input_file_path=.*|input_file_path=${new_input_path:-$(grep '^input_file_path=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
     sed -i "s|^output_file_path=.*|output_file_path=${new_output_path:-$(grep '^output_file_path=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
     sed -i "s|^manual_json_file_path=.*|manual_json_file_path=${new_manual_config_path:-$(grep '^manual_json_file_path=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
+    sed -i "s|^booklet_json_file_path=.*|booklet_json_file_path=${new_booklet_path:-$(grep '^booklet_json_file_path=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
     sed -i "s|^do_shortcuts=.*|do_shortcuts=${new_do_shortcuts:-$(grep '^do_shortcuts=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
     sed -i "s|^do_contractions=.*|do_contractions=${new_do_contractions:-$(grep '^do_contractions=' "$config_file" | cut -d '=' -f2)}|" "$config_file"
 
