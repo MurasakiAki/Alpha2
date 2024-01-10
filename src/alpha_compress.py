@@ -287,5 +287,3 @@ def manual_compressor():
         file.write(modified_text)
 
     logging.info(f"Manual compression completed. Output saved to {OUTPUT_FILE}.")
-
-auto_compressor()
